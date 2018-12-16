@@ -40,9 +40,48 @@ body{
 }
 .fas
 {
-  margin-left: 10px;
+  margin: 0px 5px;
 }
-.navbar-toggler-icon
+.navbar-light .navbar-brand
+{
+  color:lightgrey;
+}
+.navbar-light .navbar-toggler-icon
+{
+  background-color: lightgrey;
+}
+
+
+.navbar-nav .nav-item
+{
+  padding: 5px;
+  margin: 5px;
+
+}
+.navbar-nav .nav-item a
+{
+  color: lightgrey;
+}
+.navbar-nav .nav-item a:hover
+{
+  color: grey;
+  text-decoration: none;
+}
+.navbar-custom:hover
 {
   color:white;
+}
+.contact h1:after
+{
+  content:"";
+  width:120px;
+  height:2px;
+  background-color: #e67e22;
+  position: absolute;
+  bottom: -60px;
+  margin-left: -150px;
+}
+.contact h1
+{
+  margin: 10px;
 }
