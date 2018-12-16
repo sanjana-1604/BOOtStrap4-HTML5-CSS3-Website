@@ -1,0 +1,48 @@
+*{
+  margin:0;
+  padding: 0;
+}
+body{
+  overflow-x: hidden;
+  overflow-y: scroll;
+
+}
+.header
+{
+  background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(Img/Bk.jpg);
+  background-size:cover;
+  height: 100vh;
+  background-position: center;
+}
+.hero-text
+{
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 90px;
+}
+.btn{
+  padding: 10px 30px;
+  border:1px solid #e67e22;
+  margin: 10px;
+  color:white;
+  border-radius: 5px;
+  transition: all 0.5s ease-in;
+}
+.btn:hover
+{
+  background-color: #e67e11;
+  color: white;
+}
+.header img
+{
+  margin: 40px;
+
+}
+.fas
+{
+  margin-left: 10px;
+}
+.navbar-toggler-icon
+{
+  color:white;
+}
